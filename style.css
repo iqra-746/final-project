@@ -262,6 +262,10 @@ body{
 } 
 
 .cnt-img {
+    width: 100%;
+}
+
+.cnt-img img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,10 +275,14 @@ body{
 
 @media screen and (max-width: 460px) {
     .cnt-img {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .cnt-img img{
         width: 80%;
+        height: 250px;
     }
     .myhome{
         display: flex;
@@ -283,7 +291,6 @@ body{
         text-align: justify;
          background-color: rgb(3, 3, 43);
          color: white;
-         margin: 50px 0px; 
          height: auto;
          width: 100%;
      }
