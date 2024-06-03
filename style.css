@@ -283,9 +283,9 @@ body{
 }
 @media screen and (max-width: 360px) {
     .footer-col{
-        width: 50%;
+        width: 80%;
         margin-bottom: 30%;
-        flex-wrap:unset;
+        flex-wrap:wrap;
     }
 }
 @media screen and (min-width: 361px) and (max-width: 600px) {}
