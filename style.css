@@ -1,0 +1,243 @@
+
+.mynav{
+    background-color:rgb(4, 4, 75);
+}
+
+.nav-link {
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.mylogo{
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.mylogo:hover {
+    color: white;
+}
+.mynav .navbar-nav .nav-item .nav-link.active {
+    color: rgb(16, 97, 189) !important; }
+
+.images {
+    height: 350px;
+}
+
+.about{
+     width: 80;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Times New Roman', serif;
+    padding: 0px 100px;
+}
+
+.About-pg{
+   
+    background-color: rgba(194, 207, 245, 0.925);
+    padding: 1%;
+    color: black;
+    
+  }  
+.img {
+    width: 340px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    margin: 60px;
+}
+
+.card{
+    border-style: solid;
+    border-color: black;
+  
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.myslide {
+    margin-bottom: 50px;
+}
+.admissionform {
+    margin: 10%;
+    padding: 5%;
+    width: 80%;
+    justify-content: center;
+}
+.form{
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.footer{
+    width: 100%;
+    height: 250px !important;
+    background-color: rgb(3, 3, 43);
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Narrow Bold';
+    
+
+}
+.footer-col{
+    width: 30%;
+    color: white;
+    padding: 0 25px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(3, 3, 43);
+    background-color: white;
+    margin: 0 10px 0;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    background-color: rgb(3, 3, 43);
+    color: rgb(52, 112, 161);
+}
+
+.note{
+    margin: 10%;
+    padding: 2.5%;
+    font-family: 'Arial Narrow Bold' ;
+    background-color: rgb(3, 3, 43);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.index {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-right: 2px;
+    margin: 1.5%;
+}
+.chairman{
+    padding: 5%;
+}
+.show-requests {
+    width: 80%;
+    min-height: 450px;
+    margin: 20px auto;
+}
+
+/* table css */
+.request-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.request-table th, .request-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.request-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.request-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.request-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.request-table th, .request-table td {
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Narrow Bold';
+    color:  black;
+    margin: 5%;
+    padding: 0%;
+}
+.card-text{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.heading{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 4, 75) ;
+    color: white;
+    margin: 5%;
+    padding: 0%;
+
+}
+/* .myhome {font-family: 'Times New Roman', serif;
+    background-color: rgb(23, 23, 104) ;
+    color: white;
+    margin: 5%;
+    padding: 2.5%;
+}
+    
+.paragrph{
+    padding: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.paragrph p{
+    text-align: justify;
+
+} */
+.mission{
+    width: 80;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Times New Roman', serif;
+    padding: 0px 100px;
+}
+
+.mission h2{
+    width: 40%;
+}
+
+.mission p{
+    width: 90%;
+}
+
+.foter {
+    width: 100%;
+    background-color: rgb(3, 3, 43);
+    color: white;
+}
+
+.foter p{
+    display: flex;
+    justify-content: center;
+    text-size-adjust: 20px;
+    text-align: center;
+}
+
+
+
+/* responsive */
+/* @media(max-width: 730px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30%;
+    }
+}
+@media(max-width: 560px){
+    .footer-col{
+        width: 100%;
+        
+    }
+} */
+

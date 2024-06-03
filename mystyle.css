@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.meriiclass {
+    background-color: rgb(3, 3, 43);
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 100px;
+    line-height: 0;
+}
+.container{
+    padding-top: 5px;
+}
+.myhome{
+   display: flex;
+   justify-content: center;
+   text-align: justify;
+    background-color: rgb(3, 3, 43);
+    color: white;
+    margin: 50px 0px; 
+}
+.paragrph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+
+.cnt-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

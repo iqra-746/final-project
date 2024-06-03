@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg mynav">
+        <div class="container-fluid">
+            <img src="imgs/305645908_500657442063025_7187719797842487252_n.jpg" class="logo" alt="">
+            <a class="navbar-brand mylogo" href="#">Standard <br>Group of Institute</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="aboutp.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="academic_achievements.html">Academic Achievement</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="admissionform.html">Admission Form</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="about">
+        <div class="About-pg">
+
+            <h4><strong>Standard Group of Institute</strong></h4>
+            <p>remains committed to providing an academically rigorous education to
+                students who will walk out of school ready for lives of leadership and service to their community. From
+                literacy to sports and art, each day is filled with activities that are both enriching and fun. <br>
+
+                We strive to be committed to the students we are privileged to serve, in our alumni association, our
+                dedicated, talented faculty and staff. We also take pride in having the most active and helpful group of
+                partners, visionary parents, well-wishers, alumni and friends. <br>
+                At our school, education is not just a journey; it’s an adventure filled with discovery, growth, and
+                endless possibilities. Nestled in the heart of our vibrant community, Standard Grammar School is more
+                than just a place of learning; it’s a home away from home where students, parents, and educators come
+                together to inspire, innovate, and thrive.
+
+            </p>
+        </div>
+        <div class="img">
+            <img src="imgs/428651130_887465123382253_6426400263988914230_n.jpg" width="450px" height="300px">
+
+        </div>
+
+    </section>
+    <hr style="margin: 2.5%;">
+
+
+    <section class="note">
+        <div class="index">
+            <p>
+                As the Chairman of Standard Group of Insitutes, it fills me wit immense pride to welcome you to our
+                esteemed institions. At Standard Group of Insitutes, we believe in nurturing not just intellect but
+                also the character and spirit of every individualwho passes through our halls.
+                <br>
+                <br>
+                I invite you to join us on this journey of growth, discovery and achievement. Together, let us
+                continue to uphold the values of Standard Group of Insitutes and inspire greatness in every student
+                <br>
+                <br><strong>Gulzar Ahmed</strong>
+                <br>Chairman
+            </p>
+        </div>
+        <div>
+            <img src="javascript 1/WhatsApp-Image-2024-04-24-at-4.47.34-AM-545x560.jpeg" height="380" width="350">
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container" style="padding-top: 50px;">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">+92 335 1446822</a></li>
+                        <li><a href="#">630 Umer Block, Allama Iqbal Town, Lahore</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="homep.html">Home</a></li>
+                        <li><a href="aboutp.html">About Us</a></li>
+                        <li><a href="academic achievements.html">Academic Achievement</a></li>
+                        <li><a href="admissionform.html">Admission Form</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <p>Copyright ©2024 Standard Group of institutions.</p>
+
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = window.location;
+            $('ul.nav a[href="' + url + '"]').parent().addClass('active');
+            $('ul.nav a').filter(function () {
+                return this.href == url;
+            }).parent().addClass('active');
+        });
+    </script>
+</body>
+
+</html>
