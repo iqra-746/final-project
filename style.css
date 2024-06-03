@@ -13,11 +13,12 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .mylogo:hover {
-    color: white;
+    color: white !important;
 }
 .mynav .navbar-nav .nav-item .nav-link.active {
     color: rgb(16, 97, 189) !important; }
-
+    .mynav .navbar-nav .nav-item .nav-link:hover {
+        color: #7e7e7e !important; }
 .images {
     height: 350px;
 }
@@ -49,7 +50,19 @@
 .card{
     border-style: solid;
     border-color: black;
+    border: 1px solid black;
   
+}
+.card .card-img-1{
+    border-style: solid;
+    border-color: black;
+    border: 1px solid black;
+}
+
+.card-body{
+    border-style: solid;
+    border-color: black;
+    border: 1px solid black;
 }
 
 .logo {
@@ -154,6 +167,7 @@
     background-color: #f1f1f1;
     cursor: pointer;
 }
+
 .request-table th, .request-table td {
     text-align: center;
 }
@@ -202,6 +216,7 @@
     width: 100%;
     background-color: rgb(3, 3, 43);
     color: white;
+    text-decoration: none;
 }
 
 .foter p{
@@ -209,4 +224,69 @@
     justify-content: center;
     text-size-adjust: 20px;
     text-align: center;
+    text-decoration: none;
+
 }
+.footer-col li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer-col li{
+    list-style: none;
+}
+
+
+
+
+
+
+/* extra css remove from htm */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.meriiclass {
+    background-color: rgb(3, 3, 43);
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 100px;
+    line-height: 0;
+}
+.container{
+    padding-top: 5px;
+}
+.myhome{
+   display: flex;
+   justify-content: center;
+   text-align: justify;
+    background-color: rgb(3, 3, 43);
+    color: white;
+    margin: 50px 0px; 
+}
+.paragrph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+
+.cnt-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 360px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30%;
+        flex-wrap:unset;
+    }
+}
+@media screen and (min-width: 361px) and (max-width: 600px) {}
+@media screen and (min-width: 601px) and (max-width: 1024px) {}
