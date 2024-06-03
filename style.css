@@ -180,21 +180,7 @@
     padding: 0%;
 
 }
-/* .myhome {font-family: 'Times New Roman', serif;
-    background-color: rgb(23, 23, 104) ;
-    color: white;
-    margin: 5%;
-    padding: 2.5%;
-}
-    
-.paragrph{
-    padding: 5%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.paragrph p{
-    text-align: justify;
 
-} */
 .mission{
     width: 80;
     display: flex;
@@ -224,20 +210,3 @@
     text-size-adjust: 20px;
     text-align: center;
 }
-
-
-
-/* responsive */
-/* @media(max-width: 730px){
-    .footer-col{
-        width: 50%;
-        margin-bottom: 30%;
-    }
-}
-@media(max-width: 560px){
-    .footer-col{
-        width: 100%;
-        
-    }
-} */
-
