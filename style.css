@@ -265,8 +265,36 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
+    width: 400px;
 }
+
 @media screen and (max-width: 460px) {
+    .cnt-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .myhome{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: justify;
+         background-color: rgb(3, 3, 43);
+         color: white;
+         margin: 50px 0px; 
+         height: auto;
+         width: 100%;
+     }
+     .paragrph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 5%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    } 
+    
     .footer{
         width: 100%;
         height: auto;
