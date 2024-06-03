@@ -266,7 +266,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 460px) {
     .footer{
         width: 100%;
         height: auto;
