@@ -274,6 +274,23 @@ body{
 }
 
 @media screen and (max-width: 460px) {
+    .mission{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Times New Roman', serif;
+        padding: 0px 100px;
+    }
+    
+    .mission h2{
+        width: 100%;
+    }
+    
+    .mission p{
+        width: 100%;
+    }
     .cnt-img {
         width: 100%;
         display: flex;
