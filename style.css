@@ -281,7 +281,7 @@ body{
         justify-content: flex-start;
         align-items: center;
         font-family: 'Times New Roman', serif;
-        padding: 0px 100px;
+        padding: 0px 30px;
     }
     
     .mission h2{
@@ -291,7 +291,6 @@ body{
     .mission p{
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
     }
     .cnt-img {
         width: 100%;
