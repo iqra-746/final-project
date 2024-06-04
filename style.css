@@ -290,6 +290,8 @@ body{
     
     .mission p{
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
     .cnt-img {
         width: 100%;
